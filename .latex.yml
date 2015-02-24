@@ -1,0 +1,3 @@
+# Compiler and root
+compiler: pdflatex
+root_file: ./Course/Course.tex
