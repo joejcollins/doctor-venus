@@ -1,3 +1,3 @@
-# Mindfulness
+# Introduction to Meditation
 
-## Mindfulness Course
+
