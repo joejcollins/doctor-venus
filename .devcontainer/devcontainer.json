@@ -1,6 +1,6 @@
 {
 	"name": "LaTeX on doctor-venus",
-	"image": "ghcr.io/earthroverprogram/doctor-venus:latest",
+	"image": "ghcr.io/joejcollins/doctor-venus:latest",
 	"customizations": {
 		"vscode": {
 			"extensions": [
