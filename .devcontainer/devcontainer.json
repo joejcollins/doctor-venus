@@ -1,0 +1,70 @@
+{
+	"name": "LaTeX on doctor-venus",
+	"image": "ghcr.io/earthroverprogram/doctor-venus:latest",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"james-yu.latex-workshop",
+				"ms-toolsai.jupyter",
+				"ms-python.python",
+				"shardulm94.trailing-spaces",
+				"stkb.rewrap",
+				"streetsidesoftware.code-spell-checker",
+			],
+			"settings": {
+				"files.eol": "\n",
+				"editor.formatOnSave": true,
+				"files.associations": {
+					"*.tex": "latex"
+				},
+				"latex-workshop.latex.autoClean.run": "onBuilt",
+				"latex-workshop.latex.clean.subfolder.enabled": true,
+				"latex-workshop.latex.tools": [
+					{
+						"name": "latexmk",
+						"command": "latexmk",
+						"args": [
+							"-synctex=1",
+							"-interaction=nonstopmode",
+							"-file-line-error",
+							"-pdf",
+							"-outdir=%OUTDIR%",
+							"%DOC%"
+						],
+						"env": {}
+					},
+					{
+						"name": "pdflatex",
+						"command": "pdflatex",
+						"args": [
+							"-synctex=1",
+							"-interaction=nonstopmode",
+							"-file-line-error",
+							"%DOC%"
+						],
+						"env": {}
+					},
+					{
+						"name": "bibtex",
+						"command": "bibtex",
+						"args": [
+							"%DOCFILE%"
+						],
+						"env": {}
+					}
+				],
+				"latex-workshop.linting.chktex.enabled": true,
+				"latex-workshop.linting.chktex.exec.path": "/usr/local/bin/chktex",
+				"latex-workshop.latexindent.enabled": true,
+				"latex-workshop.latexindent.exec.path": "latexindent",
+				"latex-workshop.formatting.latexindent.args": [
+					"-c",
+					"%DIR%/",
+					"%TMPFILE%",
+					"-y=defaultIndent: '%INDENT%'"
+				],
+				"latex-workshop.synctex.afterBuild.enabled": true
+			}
+		}
+	}
+}
