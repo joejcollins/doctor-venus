@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/devcontainers/base:bookworm
 
 # Install LaTeX.
 RUN apt-get --quiet update \
- && apt-get install --assume-yes texlive-latex-extra texlive-extra-utils latexmk \
+ && apt-get install --assume-yes texlive-latex-extra texlive-extra-utils latexmk pandoc \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 

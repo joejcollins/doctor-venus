@@ -1,0 +1,65 @@
+\usepackage[paperwidth=148mm, paperheight=210mm, bindingoffset=.75in]{geometry}
+\usepackage[latin1]{inputenc}
+
+%% 
+% Set the font and adjust a few sizes
+%%
+\renewcommand{\familydefault}{cmss}
+\newcommand{\smaller}{\small}
+\raggedright 
+
+%\title{TITLE OF BOOK}
+%\author{NAME OF AUTHOR}
+%\date{} % Delete this line to display the current date
+
+%% BEGIN TITLE
+
+\makeatletter
+\def\maketitle{%
+  \null
+  \thispagestyle{empty}%
+  \vfill
+  \begin{center}\leavevmode
+    \normalfont
+    {\LARGE\raggedleft \@author\par}%
+    \hrulefill\par
+    {\huge\raggedright \@title\par}%
+    \vskip 1cm
+%    {\Large \@date\par}%
+  \end{center}%
+  \vfill
+  \null
+  \cleardoublepage
+  }
+\makeatother
+\author{Joe J Collins}
+\title{An Introduction to \\Mindfulness Meditation}
+\date{}
+
+\begin{document}
+
+\let\cleardoublepage\clearpage
+
+
+\maketitle
+
+
+\frontmatter
+
+\null\vfill
+
+\begin{flushleft}
+\textit{Mindfulness Meditation}
+
+\copyright\ COPYRIGHT INFO
+
+ISBN--INFO
+
+ISBN--13: 
+\bigskip
+
+\end{flushleft}
+\let\cleardoublepage\clearpage
+
+\mainmatter
+\sloppy
