@@ -38,7 +38,8 @@ Matsuo Bashō (1644 – 1694)
 
 ## Body Scan
 
-Why use the Body as a Focus
+### Why use the Body as a Focus
+
 Becoming aware of the bodily sensations helps us to become mindfully aware of what we are experiencing in the present moment. What happens in the body both reflects and affects what happens in our thoughts and emotions. Very often we try to ‘think’ our way through troubling experiences, or indeed any experience.
 
 Focusing on what the body is experiencing is a way to practice becoming more fully present for our experiences and not just having them ‘in our heads’.  Instead of trying to rationalise thoughts and emotions, we can learn a new perspective…’how does this feel in my body?’
@@ -46,7 +47,7 @@ It’s the difference between filming an event to watch later and actually payin
 
 In the Body Scan meditation you are invited to move your attention around your body and focus on what is happening in your body right now.  There is no right or wrong outcome. The aim is simply to be aware of your experience.
 
-## Why the Events Calendars
+### Why the Events Calendars
 
 From the Thoughts and Feelings exercise we can see that there are a variety of different reactions to the same situation. How  we feel is very often a consequence of a situation plus our interpretation, the add-ons. We go straight to a feeling or a thought from a situation, without really seeing how we got there.
 
