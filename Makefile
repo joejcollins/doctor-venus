@@ -3,13 +3,14 @@ META := metadata.yaml
 
 all: book.pdf book.epub book.html
 
+.PHONY: book.pdf
 book.pdf:
 	pandoc $(CHAPTERS) --metadata-file=$(META) -o $@ --pdf-engine=lualatex
 
-book.epub:
+epub:
 	pandoc $(CHAPTERS) --metadata-file=$(META) -o $@
 
-book.html:
+html:
 	pandoc $(CHAPTERS) --metadata-file=$(META) -o $@
 
 clean:
