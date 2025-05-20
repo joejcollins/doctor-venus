@@ -1,2 +1,9 @@
 chapters/01/a_taste_of_mindfulness.md
 chapters/02/mind_body_feelings.md
+chapters/03/becoming_present.md
+chapters/04/staying_present.md
+chapters/05/allowing.md
+chapters/06/thoughts_are_not_facts.md
+chapters/07/taking_care.md
+chapters/08/going_forward.md
+chapters/09/mindfulness_group.md
