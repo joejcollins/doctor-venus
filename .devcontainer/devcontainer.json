@@ -5,8 +5,6 @@
 		"vscode": {
 			"extensions": [
 				"james-yu.latex-workshop",
-				"ms-toolsai.jupyter",
-				"ms-python.python",
 				"shardulm94.trailing-spaces",
 				"streetsidesoftware.code-spell-checker"
 			],
